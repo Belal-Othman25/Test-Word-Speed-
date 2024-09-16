@@ -1,0 +1,142 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ddd;
+    margin: 0;
+}
+.game{
+    text-align: center;
+}
+.game .name{
+    background-color: rgb(28 146 247);
+    padding: 20px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+.container{
+    max-width: 700px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container .meesage{
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.container .meesage span{
+    font-weight: bold;
+    color: #009688;
+}
+.container .meesage span::before{
+    content: "[ ";
+    color: rgb(28 146 247);
+}
+.container .meesage span::after{
+    content: " ]";
+    color: rgb(28 146 247);
+}
+.container .start{
+    width: 100%;
+    background-color: rgb(0, 90, 158);
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.the-word{
+    text-align: center;
+    color: rgb(16, 110, 190);
+    font-size: 40px;
+    font-weight: bold;
+    user-select: none;
+}
+.container input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(28 146 247);;
+    border-radius: 5px;
+    text-align: center;
+}
+.container input:focus{
+    outline: none;
+}
+.container .upcoming-words{
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container .upcoming-words div{
+    background-color: rgb(28 146 247);
+    margin: 4px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.container .control{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 15px;
+  
+}
+.container .control .score span{
+    font-weight: bold;
+    color: rgb(28 146 247);
+}
+.finish{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding: 15px;
+}
+.finish .good{
+    color: rgb(0, 90, 158);
+}
+.finish .bad{
+    color: red;
+}
+.select-level{
+  padding: 15px;
+  background-color: #009688;
+}
+.select-level span{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.select-level #mySelect{
+    width: 100px;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.select-level #mySelect:focus{
+    outline: none;
+}
+/* .container .show-levels{
+    width: 100%;
+    background-color: rgb(0, 90, 158);
+    padding: 15px;
+    color: white;
+    margin-top: 15px;
+}
+.container .show-levels span:last-child::after{
+content: "]";
+}
+.container .show-levels span:first-child::before{
+    content: "[ ";
+} */
